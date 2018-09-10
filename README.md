@@ -1,7 +1,7 @@
-# AI UOA
+#AI UOA
 
-To build the dockerfile:
+To run the jupyter notebook after cloning the repository:
+
 ```
-cd util
-docker build -f tensorflow.Dockerfile -t aiuoa/tensorflow:latest .
+docker run --name tfdocker -p 6006:6006 -p 8888:8888 -v ~/aiuoa:/aiuoa -it aiuoa/tensorflow
 ```
