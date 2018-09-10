@@ -4,7 +4,7 @@ RUN pip install --upgrade pip setuptools
 
 WORKDIR /aiuoa
 RUN chmod -R a+rwx /aiuoa
-RUN pip install tflearn pathlib tensorflow jyupter scikit-learn face_recognition
+RUN pip install tflearn pathlib tensorflow jupyter scikit-learn face_recognition
 ENV PYTHONPATH "${PYTHONPATH}:/aiuoa"
 EXPOSE 8888
 
