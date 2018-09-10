@@ -39,3 +39,8 @@ tmtagsHistory
 *.sublime-project
 *.sublime-workspace
 .bundle
+
+# AIUOA SPECIFIC #
+##################
+.jupyter/jupyter_notebook_config.json
+notebooks/.ipynb_checkpoints/**

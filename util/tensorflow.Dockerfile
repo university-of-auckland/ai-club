@@ -11,6 +11,8 @@ WORKDIR /aiuoa
 RUN chmod -R a+rwx /aiuoa
 RUN pip install tflearn pathlib tensorflow jupyter scikit-learn face_recognition
 ENV PYTHONPATH "${PYTHONPATH}:/aiuoa"
+RUN mkdir /aiuoa/.jupyter
+ENV JUPYTER_CONFIG_DIR /aiuoa/.jupyter
 EXPOSE 8888
 EXPOSE 6006
 
