@@ -43,7 +43,7 @@ tmtagsHistory
 # AIUOA SPECIFIC #
 ##################
 .jupyter/jupyter_notebook_config.json
-notebooks/.ipynb_checkpoints/**
+*-checkpoint.ipynb
 *.pkl
 *.tfl.ckpt*
 checkpoint
