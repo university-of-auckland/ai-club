@@ -1,4 +1,4 @@
-#AI UOA
+# AI UOA
 
 To run the jupyter notebook after cloning the repository:
 
