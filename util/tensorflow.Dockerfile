@@ -10,6 +10,7 @@ RUN python --version
 WORKDIR /aiuoa
 RUN chmod -R a+rwx /aiuoa
 RUN pip install -U tflearn pathlib tensorflow jupyter scikit-learn face_recognition pandas seaborn matplotlib
+RUN pip install -U h5py
 ENV PYTHONPATH "${PYTHONPATH}:/aiuoa"
 RUN mkdir /aiuoa/.jupyter
 ENV JUPYTER_CONFIG_DIR /aiuoa/.jupyter
